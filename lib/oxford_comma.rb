@@ -1,4 +1,6 @@
 def oxford_comma(array)
+if array.length==0
+  return
 if array.length==1
     array.join
   elsif array.length==2
@@ -11,3 +13,4 @@ if array.length==1
   else
   end
 end
+
